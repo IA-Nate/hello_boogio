@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cores">
+      <UniqueIdentifier>{7089f4ea-37e6-46d8-a52b-e8768f17c7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cores">
+      <UniqueIdentifier>{80d44dc7-a707-47b5-9136-192078a25612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parsers">
+      <UniqueIdentifier>{8411f476-1878-4f5d-b780-af7293735812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parsers">
+      <UniqueIdentifier>{bd39950b-4054-412c-b416-95a4fe76fa6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCore.cpp">
+      <Filter>Source Files\Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCore.cpp">
+      <Filter>Source Files\Cores</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemManifest.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="BoogioDataParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogCore.h">
+      <Filter>Header Files\Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCore.h">
+      <Filter>Header Files\Cores</Filter>
+    </ClInclude>
+    <ClInclude Include="BoogioDataParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemManifest.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
