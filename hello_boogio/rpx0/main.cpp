@@ -68,12 +68,15 @@ int main(int argc, char **argv)
 	BoogioDataParser left_shoe_data_parser;
 	BoogioDataParser right_shoe_data_parser;
 
-	string present_timestamp = GetPresentTimestamp();
+	
 
 	string delimieter = " ";
 
 	while(true)
 	{
+
+		string present_timestamp = GetPresentTimestamp();
+
 		string new_left_file_contents = left_file_core.ReadBinaryFile();
 		string new_right_file_contents = right_file_core.ReadBinaryFile();
 		if (previous_left_file_contents.compare(new_left_file_contents) != 0)
